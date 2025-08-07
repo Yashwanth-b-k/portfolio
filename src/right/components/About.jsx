@@ -43,7 +43,19 @@ export default function About() {
           </p>
         </div>
 
-        {/* Cloud/DevOps */}
+        {/* Mobile */}
+        <div className="bg-[#2c2c2e] p-6 rounded-xl shadow-md">
+          <div className="flex items-center gap-3 mb-2">
+            <FaMobileAlt className="text-yellow-300 text-2xl" />
+            <h3 className="text-xl font-semibold">Databases</h3>
+          </div>
+          <p className="text-gray-300 text-sm">
+            Implementing scalable and efficient database solutions using SQL and
+            NoSQL technologies for robust data storage and fast retrieval.
+          </p>
+        </div>
+
+        {/* Cloud/DevOps
         <div className="bg-[#2c2c2e] p-6 rounded-xl shadow-md">
           <div className="flex items-center gap-3 mb-2">
             <SiGooglecloud className="text-yellow-300 text-2xl" />
@@ -53,19 +65,8 @@ export default function About() {
             Managing cloud infrastructure, automation, and deployment pipelines
             to ensure reliability and scalability.
           </p>
-        </div>
+        </div> */}
 
-        {/* Mobile */}
-        <div className="bg-[#2c2c2e] p-6 rounded-xl shadow-md">
-          <div className="flex items-center gap-3 mb-2">
-            <FaMobileAlt className="text-yellow-300 text-2xl" />
-            <h3 className="text-xl font-semibold">`lorem`</h3>
-          </div>
-          <p className="text-gray-300 text-sm">
-            Developing cross-platform mobile apps using React Native for
-            seamless user experiences on Android & iOS.
-          </p>
-        </div>
       </div>
     </div>
   );
