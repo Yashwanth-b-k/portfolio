@@ -21,7 +21,7 @@ export default function Resume() {
           <div>
             <p className="text-xl font-bold">
               Visveswaraya Technological University{" "}
-              <span className="text-yellow-400">- 8.7 CGPA</span>
+              <span className="text-yellow-400">- 8.9 CGPA</span>
             </p>
             <p className="text-sm text-gray-400">2021 — 2025</p>
             <p className="text-gray-300">Bachelor of Engineering</p>

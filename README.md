@@ -1,3 +1,3 @@
 ##ONGOING...
 
-Check out the [Live Website](https://portfolio-blond-gamma-ka2pteaioq.vercel.app/)
+Check out the [Live Website](https://yashwanthbk.netlify.app/)
