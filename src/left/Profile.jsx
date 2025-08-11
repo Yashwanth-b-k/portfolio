@@ -68,23 +68,23 @@ export default function Profile() {
           </div>
         </div>
 
-      {/* Social Icons */}
-      <div className="flex justify-center gap-6 mt-8">
-        <a
-          href="https://www.linkedin.com/in/yashwanthgowdabk/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin className="text-xl text-gray-400 hover:text-white" />
-        </a>
-        <a
-          href="https://github.com/yashwanthgowdabk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaGithub className="text-xl text-gray-400 hover:text-white" />
-        </a>
-      </div>
+        {/* Social Icons */}
+        <div className="flex justify-center gap-6 mt-8">
+          <a
+            href="https://www.linkedin.com/in/yashwanth-b-k-96737323a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-xl text-gray-400 hover:text-white" />
+          </a>
+          <a
+            href="https://github.com/Yashwanth-b-k"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-xl text-gray-400 hover:text-white" />
+          </a>
+        </div>
       </div>
     </div>
   );
