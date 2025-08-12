@@ -4,6 +4,7 @@ import { MdCall } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 export default function Profile() {
   return (
@@ -83,6 +84,13 @@ export default function Profile() {
             rel="noopener noreferrer"
           >
             <FaGithub className="text-xl text-gray-400 hover:text-white" />
+          </a>
+          <a
+            href="https://leetcode.com/u/yashvvanth_1/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiLeetcode className="text-xl text-gray-400 hover:text-white" />
           </a>
         </div>
       </div>
