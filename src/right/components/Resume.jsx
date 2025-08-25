@@ -26,7 +26,7 @@ export default function Resume() {
     <div className="p-8 bg-[#1e1e1e] text-white rounded-3xl shadow-2xl  mx-auto">
       {/* Download Button */}
       <a
-        href="https://drive.google.com/uc?export=download&id=1yfbaW6reKtYpH25ZppYka2Em74i-6ISl"
+        href="https://drive.google.com/uc?export=download&id=1_lv9yaZzL_O-p_K0PpJvc3PxW6FVuRFm"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-yellow-600 hover:bg-yellow-700 text-white px-5 py-2 rounded-md shadow-md transition-transform hover:scale-105"
