@@ -29,6 +29,15 @@ export default function Resume() {
         href="https://drive.google.com/uc?export=download&id=1_lv9yaZzL_O-p_K0PpJvc3PxW6FVuRFm"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => {
+          if (window.gtag) {
+            window.gtag("event", "resume_download", {
+              event_category: "engagement",
+              event_label: "Resume PDF",
+              value: 1,
+            });
+          }
+        }}
         className="inline-block bg-yellow-600 hover:bg-yellow-700 text-white px-5 py-2 rounded-md shadow-md transition-transform hover:scale-105"
       >
         📄 Download Resume
